@@ -2,7 +2,7 @@
 const config = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
   staticDirs: ["../public"],
-  addons: ["@storybook/addon-links", "@storybook/addon-essentials", "@storybook/addon-interactions", "@storybook/addon-mdx-gfm", "@storybook/addon-storysource", "@storybook/addon-console"],
+  addons: ["@storybook/addon-links", "@storybook/addon-essentials", "@storybook/addon-interactions", "@storybook/addon-mdx-gfm", "@storybook/addon-storysource", "@storybook/addon-console", "@storybook/addon-viewport"],
   framework: {
     name: "@storybook/vue3-vite",
     options: {}

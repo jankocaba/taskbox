@@ -1639,7 +1639,7 @@
     "@storybook/preview-api" "7.0.17"
     "@storybook/theming" "7.0.17"
 
-"@storybook/addon-viewport@7.0.17":
+"@storybook/addon-viewport@7.0.17", "@storybook/addon-viewport@^7.0.17":
   version "7.0.17"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.17.tgz#6ddc4957578b18d2c31a042ec4b9ed45839c30b2"
   integrity sha512-ir+fPU6IRj7TRXdjQEy0b7+rCDiJPDbI0lrGxVIQM65mu8SakJhg8KRzi84Ep3e99LqGA/1gtPiNJu6tbEyBfA==

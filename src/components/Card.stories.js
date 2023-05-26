@@ -3,6 +3,7 @@ import Card from './TheCard.vue';
 export default {
   title: 'Components/Card',
   component: Card,
+  tags: ['autodocs'],
   args: {
     title: 'Card Title',
     backgroundColor: 'red'

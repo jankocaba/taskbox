@@ -1,4 +1,6 @@
 /** @type { import('@storybook/vue3').Preview } */
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
+
 const preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
@@ -8,6 +10,9 @@ const preview = {
         date: /Date$/,
       },
     },
+    viewport: {
+      viewports: INITIAL_VIEWPORTS,
+    }
   },
 };
 

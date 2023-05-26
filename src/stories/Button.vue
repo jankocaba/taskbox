@@ -10,7 +10,7 @@ export default {
   name: 'my-button',
 
   props: {
-      label: {
+    label: {
       type: String,
       required: true,
     },
